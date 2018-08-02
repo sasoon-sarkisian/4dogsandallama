@@ -1,0 +1,22 @@
+/* Put your custom styles here and run `npm start` from the "src" directory on */
+
+#TableOfContents ul li {
+  margin-bottom: 1em;
+}
+
+.nav {
+	margin-left: 2.5em;
+}
+
+.nav .home:before {
+	background-image: url('/images/weasel.png');
+	background-size: 70px;
+	background-repeat: no-repeat;
+	content:'';
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+
